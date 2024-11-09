@@ -25,7 +25,8 @@ The UI is customized with CSS for a visually appealing layout:
 - Beige background, orange title, black descriptive text, and a red Generate button.
 
 ## 📷 Screenshot
-![App Screenshot](./path-to-your-screenshot.png)
+![App Screenshot]![Screenshot](https://github.com/user-attachments/assets/db3af111-9ece-4acd-a755-80400723c395)
+
 
 ## 🛠️ Setup Instructions
 
@@ -36,18 +37,12 @@ The UI is customized with CSS for a visually appealing layout:
 
 ### Installation
 
-1. **Clone this repository**:
-    ```bash
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
-    ```
-
-2. **Install dependencies**:
+1. **Install dependencies**:
     ```bash
     pip install -r requirements.txt
     ```
 
-3. **Set up Google Translate API credentials**:
+2. **Set up Google Translate API credentials**:
     - Get your `credentials.json` file from Google Cloud.
     - Place `credentials.json` in the root directory of your project.
     - Set the environment variable:
@@ -55,7 +50,7 @@ The UI is customized with CSS for a visually appealing layout:
       export GOOGLE_APPLICATION_CREDENTIALS="credentials.json"
       ```
 
-4. **Run the application**:
+3. **Run the application**:
     ```bash
     python app.py
     ```
@@ -72,12 +67,8 @@ Gradio will launch the app and provide you with a local and a shareable link (op
 - **CSS Styling**: Modify the CSS in the code to customize the background, text colors, and button styles.
 - **Parameters**: Adjust GPT-2 and Stable Diffusion parameters (e.g., `temperature`, `max_length`) for different creative effects.
 
-## 📄 License
-This project is licensed under the MIT License.
+## Contact
 
----
+📧 Email: hariharandvanitha@gmail.com
 
-Feel free to contribute to this project or suggest improvements. For any questions, open an issue or contact me.
-
-**[Your Name]**  
-[Your Contact Information or GitHub Profile Link]
+🌐 LinkedIn: www.linkedin.com/in/hariharan-d
